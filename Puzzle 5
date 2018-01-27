@@ -1,0 +1,14 @@
+right();
+right();                     
+var A = getColor();
+if (getColor(A) == "blue") {
+  down();
+  right();
+  right();
+}
+if (getColor(A) == "red") {
+  up();
+  right();
+  right();
+}
+right();
